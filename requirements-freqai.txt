@@ -9,3 +9,4 @@ catboost==1.1.1; platform_machine != 'aarch64' and 'arm' not in platform_machine
 lightgbm==3.3.5
 xgboost==1.7.5
 tensorboard==2.12.2
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
