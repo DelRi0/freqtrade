@@ -12,7 +12,7 @@ httpx>=0.23.3
 arrow==1.2.3
 cachetools==4.2.2
 requests==2.29.0
-urllib3==1.26.15
+urllib3==2.5.0
 jsonschema==4.17.3
 TA-Lib==0.4.26
 technical==1.4.0
@@ -61,3 +61,4 @@ janus==1.0.0
 
 ast-comments==1.0.1
 packaging==23.1
+pycares>=4.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
